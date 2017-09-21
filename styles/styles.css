@@ -1,0 +1,25 @@
+h1 {
+ color: skyblue;
+
+}
+h2 {
+ color: lightpink;
+
+}
+
+p {
+ color: palegreen;
+}
+ol{color: coral}
+
+ul{color:mediumpurple}
+
+th{color: cadetblue}
+
+td{color:cornflowerblue}
+
+
+body {
+ font-family: "Times New Roman", Times, serif;
+    font-size: 120%
+}
