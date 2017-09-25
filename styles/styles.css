@@ -9,7 +9,7 @@ h2 {
 }
 
 p {
-    color: palegreen;
+    color: darkseagreen;
 }
 
 ol {
@@ -31,4 +31,7 @@ td {
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 120%
+}
+.center {
+    text-align: center;
 }
