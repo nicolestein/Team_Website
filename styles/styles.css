@@ -1,34 +1,34 @@
 h1 {
- color: skyblue;
+    color: skyblue;
     text-decoration: underline
-
-
 }
-h2 {
- color: lightpink;
-    text-decoration: underline
 
+h2 {
+    color: lightpink;
+    text-decoration: underline
 }
 
 p {
- color: palegreen;
-
+    color: palegreen;
 }
-ol{color: coral}
 
-ul{color:mediumpurple}
+ol {
+    color: coral
+}
 
-th{color: cadetblue}
+ul {
+    color: mediumpurple
+}
 
-td{color:cornflowerblue}
+th {
+    color: cadetblue
+}
 
-
-
+td {
+    color: cornflowerblue
+}
 
 body {
- font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 120%
-
-
-
 }
