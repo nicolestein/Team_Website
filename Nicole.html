@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
        <a href="./Emily.html">Emily's Page</a>
       <a href="./Olivia.html">Olivia's Page</a>
+      <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>Nicole's Page</title>
-    <link rel = "stylesheet" href = "./styles/styles.css" >
   </head>
   <body>
     <h1>Nicole Stein</h1>
-      <img src="./Images/Nicole.jpg">
+      <img class="img-thumbnail" src="./Images/Nicole.jpg">
     <h2>Biography</h2>
-    <p>I was born on October 18th, 2000. I was born at CPMC in San Francisco, CA. My hobbies include cheerleading on my high school cheer team. Last year at nationals, we got first place! I also work at a gymnastics gym coaching little kids. I love to surf and hang out with my friends.</p>
-    <p>"Failure will never overtake me if my determination to succeed is strong enough."</p>
-    <h2>Interests</h2>
+    <p>I was born on October 18th, 2000. I was born at CPMC in <strong>San Francisco, CA</strong>. My hobbies include cheerleading on my high school cheer team. Last year at nationals, we got first place! I also work at a gymnastics gym coaching little kids. I love to surf and hang out with my friends.</p>
+    <blockquote>
+        <p>"Failure will never overtake me if my determination to succeed is strong enough."</p>
+    </blockquote>
+      <h4></h4>
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-6"> <h2>Interests</h2>
     <ul>
       <li>Cheer</li>
       <li>Coaching</li>
       <li>Post Malone</li>
       <li>Surfing</li>
        <li>The beach</li>
-      </ul>
-    <h2>Top Ten List of Things After Graduation</h2>
+      </ul></div>
+       <div class="col-sm-6"><h2>Top Ten List of Things After Graduation</h2>
       <ol>
           <li>Go to college</li>
           <li>Get a house</li>
@@ -32,9 +41,11 @@
           <li>Take a road trip down the coast</li>
           <li>Have a fun summer before college</li>
           <li>Go to the beach more</li>
-      </ol>
+      </ol></div>
+     </div>
+   </div>
       <h2>Table of Links</h2>
-      <table>
+      <table class="table table-striped">
   <tr>
     <th>Link</th>
     <th>Description</th>
