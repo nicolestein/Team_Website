@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+
 
     <title>Emily's Page</title>
+ <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="./styles/styles.css">
 
 
 
+</head>
 
-  </head>
-  <body>
-      <a href="./Nicole.html">Nicole's Page</a>
-      <a href="./Olivia.html">Olivia's Page</a>
+<body>
+    <a href="./Nicole.html">Nicole's Page</a>
+    <a href="./Olivia.html">Olivia's Page</a>
 
     <h1>Emily Zaltsman</h1>
 
 
-    <img src="./Images/Emily.jpg">
+    <img class="img-thumbnail" src="./Images/Emily.jpg">
+
+
 
 
     <h2>Biography</h2>
-    <p>I was born January 23, 2000 at Marin General Hospital. My hobbies include snowboarding, horseback riding, and spending time with my friends. I hope to be accepted into nursing school, and to one day become a labor and delivery nurse! </p>
-    <p>"Why would anyone eat anything besides breakfast food?" -Leslie Knope</p>
-    <h2>Favorite Things</h2>
+    <p>I was born January 23, 2000 at <strong>Marin General Hospital</strong>. My hobbies include snowboarding, horseback riding, and spending time with my friends. I hope to be accepted into <strong>nursing school</strong>, and to one day become a labor and delivery nurse! </p>
+    <blockquote>
+        <p>"Why would anyone eat anything other than breakfast food?"<cite title="Jedi Master"> Leslie Knope</cite></footer>
+    </blockquote>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-6"> <h2>Favorite Things</h2>
+
     <ul>
         <li>Chipotle</li>
         <li>Mac & Cheese</li>
@@ -35,8 +49,9 @@
         <li>Ed Sheeran</li>
         <li>Tahoe</li>
         <li>Horses</li>
-    </ul>
-    <h2>Top 10 Things I Want to do After Graduation </h2>
+    </ul></div>
+       <div class="col-sm-6"> <h2>Top 10 Things I Want to do After Graduation </h2>
+
     <ol>
         <li>Got to Spain</li>
         <li>Go to Nursing School</li>
@@ -48,10 +63,13 @@
         <li>Make new friends</li>
         <li>Go skydiving</li>
         <li>Go to New York</li>
-    </ol>
+    </ol></div>
+     </div>
+   </div>
+
     <h2> My Favorite Websites</h2>
 
-    <table>
+    <table class="table table-striped">
         <tr>
             <th>Website</th>
             <th>Description</th>
@@ -81,10 +99,11 @@
             </td>
             <td>A website where people can sell various things to people who want to buy those various things!</td>
 
-        </tr>
-    </table>
+
+
 
 
 
 </body>
+
 </html>
