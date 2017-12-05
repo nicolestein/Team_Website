@@ -7,13 +7,22 @@ function dateMessage(){
                 var d_names = ["Sunday", "Monday", "Tuesday", "Wednesday",
                     "Thursday", "Friday", "Saturday"
                 ];
-
+                var ending = "";
                 var myDate = new Date();
-                myDate.setDate(myDate.getDate());
                 var curr_date = myDate.getDate();
                 var curr_month = myDate.getMonth();
                 var curr_day = myDate.getDay();
                 var curr_year = myDate.getFullYear();
 
-return "Today is " + d_names[curr_day] + ", " + m_names[curr_month] + " " + curr_date + ", " + [curr_year];
+    if(curr_date == 1 || curr_date == 21 || curr_date == 31) {
+        ending = "st";
+    }
+    else if(curr_date == 2 || curr_date == 22) {
+        ending = "nd";
+    }
+    else {
+      ending = "th";
+    }
+
+    return "Today is " + d_names[curr_day]+ ", " + m_names[curr_month] + " " + curr_date + "" + ending + ", " + [curr_year];
 }
