@@ -26,3 +26,36 @@ function dateMessage(){
 
     return "Today is " + d_names[curr_day]+ ", " + m_names[curr_month] + " " + curr_date + "" + ending + ", " + [curr_year];
 }
+   function greeting() {
+
+    var day = d.getDay
+
+
+var hour = d.getHours
+
+if (hour < 12) {
+    if (day == 6 || day == 0) {
+        return "Go back to sleep, its the weekend!";
+    } else if (day == 1) {
+        return "Ugh, its Monday morning...";
+    } else {
+        return "Good morning!";
+    }
+} else if (hour > 12 && hour < 20) {
+    if (day == 6 || day == 0) {
+        return "Hope you are having a great weekend!";
+    } else {
+        return "Good Day!";
+    }
+
+} else {
+    if (day == 0) {
+        return "Enjoy your evening...tomorrow is Monday!";
+        else {
+            return "Good Evening!";
+        }
+    }
+
+}
+
+   }
