@@ -28,6 +28,7 @@ function dateMessage(){
 
 
 function greeting() {
+    var d = new Date();
     var day = d.getDay();
     var hour = d.getHours();
     if (hour < 12) {
@@ -47,7 +48,7 @@ function greeting() {
     } else {
         if (day == 0) {
             return "Enjoy your evening...tomorrow is Monday!";
-        else {
+         {
                 return "Good Evening!";
         }
     }
